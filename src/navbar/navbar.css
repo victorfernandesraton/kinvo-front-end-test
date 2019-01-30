@@ -18,11 +18,9 @@ nav ul {
 }
 
 nav #navlink {
-    /* float: right; */
     margin-top: 2.5vh;
     display: inline-block;
     background-color: transparent;
-    /* align-self: auto; */
     padding: 1vh 1vw;
 }
 nav #navlink a {
