@@ -1,3 +1,15 @@
+@font-face {
+    src: url("./Bold.ttf");
+    font-family: Bold;
+}
+@font-face {
+    src: url("./SemiBold.ttf");
+    font-family: SemiBold;
+
+}@font-face {
+    src: url("./Medium.ttf");
+    font-family: Medium;
+}
 * {
     overflow-x: hidden;
     margin: 0;
@@ -5,6 +17,7 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    font-family: 'Medium';
 }
 /* navbar */
 nav {
@@ -25,14 +38,19 @@ nav #navlink {
     padding: 1vh 1vw;
 }
 nav #navlink a {
+    font-family: 'SemiBold';
     color: azure;
     text-decoration: none;
 } 
+nav #navlink {
+    border-radius: 5%;
+    border: solid 1px transparent;
+}
 
 nav #navlink:hover {
-    background-color: aqua;
+    background-color: #89E3F4;
     border-radius: 5%;
-    border: solid 2px white;
+    border: solid 1px white;
 }
 
 nav #nav-brand {
@@ -41,5 +59,13 @@ nav #nav-brand {
     margin: 2vh 2vw;
 }
 
+label {
+    color: white;
+    font-family: 'Bold';
+    text-align: justify;
+}
 
-
+label span {
+    color: #89E3F4;
+    font-family: 'Bold';
+}

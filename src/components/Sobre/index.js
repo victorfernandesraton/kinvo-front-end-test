@@ -6,8 +6,10 @@ class Sobre extends Component {
     render() {
         return (
             <section id="sobre">
+                <div id="container">
                 <img id="main-background" alt="background main" src= {mainbg}/>
-                <h1><span>O controle</span> dos seus <span>investimentos</span> na palma da mão</h1>
+                <label><span>O controle </span>dos<br/> seus <span>investimentos </span>na palma da mão.</label>
+                </div>
                 <h2>Sobre o kinvo</h2>
                 <p>
                 Investir não é fácil. E quanto mais você investe, mais difícil fica acompanhar todos os rendimentos variações, alto e baixos do mercado. Dá uma dor de cabeça e, ás vezes é necessário a ajuda de um consultor. 

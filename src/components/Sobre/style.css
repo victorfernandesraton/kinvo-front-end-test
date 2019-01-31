@@ -6,3 +6,18 @@
     /* margin-top: 10vh; */
     /* background-color: aquamarine; */
 }
+#main-backgrou2d {
+    max-width: 100vw;
+}
+
+label {
+    font-size: 2.2em;
+    position: absolute;
+    margin-top: -75vh;
+    margin-left: 6vw;
+    margin-right: 68vw;
+}
+
+img {
+    /* visibility: hidden; */
+}
