@@ -20,12 +20,21 @@ h1 {
 
 .app-img {
     position: absolute;
-    padding: 1vh 10vw;
+    padding: 1vh 2vw;
     /* margin-left: 10vw; */
-    margin-top: -30vh;
+    margin-top: 80vh;
     /* visibility: hidden; */
+    z-index: 5;
 }
 
 .img1 {
-    margin-left: 10vw;
+    margin-left: 9vw;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./main-bg.png");
+    /* mask-image: url("./mask-1.png"); */
+
 }

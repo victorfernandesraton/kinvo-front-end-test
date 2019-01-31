@@ -10,10 +10,9 @@ class Sobre extends Component {
         return (
             <section id="sobre">
                 <div id="container">
-                <img id="main-background" alt="background main" src= {mainbg}/>
                 <h1><span>O controle </span>dos<br/> seus <span>investimentos </span>na palma da mão.</h1>
-                <img className= "app-img img1"alt="android-img" src = {androidimg}/>
-                <img className= "app-img img2"alt="ios-img" src = {iosimg}/>
+                <img className = "app-img img1" alt="android-img" src = {androidimg}/>
+                <img className = "app-img" alt="ios-img" src = {iosimg}/>
                 </div>
                 <h2>Sobre o kinvo</h2>
                 <p>
