@@ -7,8 +7,8 @@ class Navbar extends Component {
     render() {
         return (
             <nav>
-                <a classname="Navbar-brand">
-                    <img id="nav-brand" src= {logo} alt="logo kinvo"></img>
+                <a className="Navbar-brand">
+                    <img id="nav-brand" src= {logo} alt="logo kinvo"/>
                 </a>
                 <ul>
                     <li id="navlink"><a href="#sobre">Sobre o kinvo</a></li>

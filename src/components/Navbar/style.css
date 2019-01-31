@@ -8,7 +8,7 @@
 /* navbar */
 nav {
     position: fixed;
-    background-color: red;
+    background-color: transparent;
     width: 100%;
     height: 10vh;
 }
