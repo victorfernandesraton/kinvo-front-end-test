@@ -3,11 +3,10 @@ import React, {Component} from 'react';
 // style
 import "./style.css";
 import logo from "./logo.png";
-import "./script.js";
 class Navbar extends Component {
     render() {
         return (
-            <nav>
+            <nav className="menu">
                 <a className="Navbar-brand">
                     <img id="nav-brand" src= {logo} alt="logo kinvo"/>
                 </a>

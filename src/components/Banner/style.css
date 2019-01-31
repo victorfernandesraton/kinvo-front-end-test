@@ -48,13 +48,16 @@ a {
 /**
 *** Seta para BAIXO
 **/  
-.seta-baixo:before {
-    position: relative;
+.seta-baixo {
+    position: absolute;
     margin-top: -10vh;
     margin-left: 49%;
-    z-index: 8;
+    z-index: 7;
     display:flex;
     justify-content:center;
     align-items: center;  
   }
 
+a#ref-arrow {
+    z-index: 9;
+}

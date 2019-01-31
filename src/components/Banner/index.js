@@ -20,7 +20,7 @@ class Banner extends Component {
                     </a>
                     
                     </div>
-                    <img className="seta-baixo" src = {arrow}></img>
+                    <a href="#sobre"><img className="seta-baixo" src = {arrow}></img></a>
             </section>
         );
     }

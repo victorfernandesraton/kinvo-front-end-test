@@ -1,0 +1,35 @@
+h2 {
+    font-size: 1.5em;
+}
+
+#row {
+    margin-top: 15vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+#col {
+    margin: 0 5vw;
+}
+
+.col-1 {
+    float: left;
+    width: 25vw;
+}
+
+.col-2 {
+    margin-top: -5vh;
+    float: left;
+    width: 50vw;
+}
+
+h3#title{
+    font-size: 2em;
+}
+#title span {
+    color: #89E3F4;
+}
+
+p#sobre-text {
+    /* text-align: justify; */
+}
