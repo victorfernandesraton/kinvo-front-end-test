@@ -1,24 +1,4 @@
-@font-face {
-    src: url("./Bold.ttf");
-    font-family: Bold;
-}
-@font-face {
-    src: url("./SemiBold.ttf");
-    font-family: SemiBold;
 
-}@font-face {
-    src: url("./Medium.ttf");
-    font-family: Medium;
-}
-* {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    font-family: 'Medium';
-}
 /* navbar */
 nav {
     overflow: hidden;

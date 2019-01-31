@@ -5,9 +5,7 @@
     max-height: 100vh;
     overflow: hidden;
 }
-/* img {
-visibility: hidden;
-} */
+
 #mainimg {
     height: 100vh !important;
     width: 100vw;

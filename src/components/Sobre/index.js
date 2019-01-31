@@ -19,15 +19,16 @@ class Sobre extends Component {
                     <div id ="col" className="col-2">
                     <img id="video" src= {videoimg} alt="video"/>
                     </div>
-                    </div>
-                    <h3><span>Kinvo</span>Agora ficou simples controlar</h3>
+                </div>
+                <div id="row-horizontal" className="row-horizontal">
                     <ul>
-                        <li><h4><span>5,4 bilhões</span>Em investimentos</h4></li>
-                        <li><h4><span>45mil</span>Carteiras criadas</h4></li>
-                        <li><h4><span>500mil</span>Produtos cadastrados</h4></li>
-                        <li><h4><span>1.2mi</span>Minutos de uso mensal</h4></li>
+                        <li id="col-li"><h4><span id="mark-1">5,4 bilhões <br/></span>Em investimentos</h4></li>
+                        <li id="col-li"><h4><span id="mark-2">45mil <br/></span>Carteiras criadas</h4></li>
+                        <li id="col-li"><h4><span id="mark-3">500mil <br/></span>Produtos cadastrados</h4></li>
+                        <li id="col-li"><h4><span id="mark-4">1.2mi <br/></span>Minutos de uso mensal</h4></li>
                     </ul>
-                    <img src= {sobrepng} alt="sobre"/>
+                </div>
+                <img id="sobre-img" src= {sobrepng} alt="sobre"/>
             </section>
                 );
             }
