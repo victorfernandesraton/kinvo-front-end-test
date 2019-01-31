@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import sobrebg from "./sobre-bg.png";
 import mainbg from "./main-bg.png";
+import androidimg from "./app-android.png";
+import iosimg from "./app-ios.png";
+
 import "./style.css";
 class Sobre extends Component {
     render() {
@@ -9,6 +12,8 @@ class Sobre extends Component {
                 <div id="container">
                 <img id="main-background" alt="background main" src= {mainbg}/>
                 <h1><span>O controle </span>dos<br/> seus <span>investimentos </span>na palma da mão.</h1>
+                <img className= "app-img img1"alt="android-img" src = {androidimg}/>
+                <img className= "app-img img2"alt="ios-img" src = {iosimg}/>
                 </div>
                 <h2>Sobre o kinvo</h2>
                 <p>

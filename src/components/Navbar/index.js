@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 // style
 import "./style.css";
 import logo from "./logo.png";
+import "./script.js";
 class Navbar extends Component {
     render() {
         return (

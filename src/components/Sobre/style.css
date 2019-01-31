@@ -18,6 +18,14 @@ h1 {
     margin-right: 68vw;
 }
 
-img {
+.app-img {
+    position: absolute;
+    padding: 1vh 10vw;
+    /* margin-left: 10vw; */
+    margin-top: -30vh;
     /* visibility: hidden; */
+}
+
+.img1 {
+    margin-left: 10vw;
 }
