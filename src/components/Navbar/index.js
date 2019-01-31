@@ -12,7 +12,7 @@ class Navbar extends Component {
                     <img id="nav-brand" src= {logo} alt="logo kinvo"/>
                 </a>
                 <ul>
-                    <li id="navlink"><a href="#sobre">Sobre o kinvo</a></li>
+                    <li id="navlink"><a href="#banner">Sobre o kinvo</a></li>
                     <li id="navlink"><a href="#recursos">Recuros avançados</a></li>
                     <li id="navlink"><a href="#kinvoweb">Kinvo Web</a></li>
                     <li id="navlink-sigin"><a href="modal_sigin">Cadastre-se</a></li>

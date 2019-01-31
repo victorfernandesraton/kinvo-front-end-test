@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // import './App.css';
 // meus componentes
 import Header from './components/Header/index.js';
+import Banner from "./components/Banner/index.js";
 import Sobre from "./components/Sobre/index.js";
 import Recursos from "./components/Recursos/index.js";
 import Kinvoweb from "./components/Kinvoweb/index.js";
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <div className="App">
       < Header/>
+      < Banner/>
       < Sobre/>
       < Recursos/>
       < Kinvoweb/>
