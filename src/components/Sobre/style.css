@@ -10,7 +10,7 @@
     max-width: 100vw;
 }
 
-label {
+h1 {
     font-size: 2.2em;
     position: absolute;
     margin-top: -75vh;

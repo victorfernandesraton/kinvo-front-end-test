@@ -21,6 +21,7 @@
 }
 /* navbar */
 nav {
+    display: block;
     position: fixed;
     background-color: transparent;
     width: 100%;
@@ -59,13 +60,13 @@ nav #nav-brand {
     margin: 2vh 2vw;
 }
 
-label {
+h1 {
     color: white;
     font-family: 'Bold';
     text-align: justify;
 }
 
-label span {
+h1 span {
     color: #89E3F4;
     font-family: 'Bold';
 }

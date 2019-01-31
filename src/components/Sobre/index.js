@@ -8,7 +8,7 @@ class Sobre extends Component {
             <section id="sobre">
                 <div id="container">
                 <img id="main-background" alt="background main" src= {mainbg}/>
-                <label><span>O controle </span>dos<br/> seus <span>investimentos </span>na palma da mão.</label>
+                <h1><span>O controle </span>dos<br/> seus <span>investimentos </span>na palma da mão.</h1>
                 </div>
                 <h2>Sobre o kinvo</h2>
                 <p>
