@@ -21,7 +21,7 @@ section#recursos#card {
 }
 
 section#recursos .card-set {
-    margin: 0.5vh 0.5vw;
+    margin: 0.5vh 0.25vw;
     border-radius: 5px;
     color: black;
     background-color: aliceblue;

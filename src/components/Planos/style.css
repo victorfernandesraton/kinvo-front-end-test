@@ -1,0 +1,50 @@
+section#planos {
+    background-color: #EFF0F2;
+    width: 100vw;
+    height: 100vh;
+    color: #707B81;
+}
+
+section#planos #col {
+    margin: 0;
+    margin-top: 10vh;
+    float: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+section#planos .text {
+    width: 30vw;
+}
+
+section#planos .card-deck {
+    width: 50vw;
+    float: left;
+}
+
+section#planos #card-set {
+    height: 15vh;
+    width: auto;
+}
+
+section#planos #card-title {
+    display: flex;
+    float: left;
+    height: 15vh;
+    width: 10vw;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+section#planos #card-content {
+    float: left;
+    width: 20vw;
+    height: 15vh;
+    font-size: 0.8em;
+}
+
+section#planos #card-mark {
+    float: left;
+}
+
+
