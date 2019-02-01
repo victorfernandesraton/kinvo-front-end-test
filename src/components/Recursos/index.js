@@ -1,5 +1,13 @@
 import React, {Component} from 'react';
 import "./style.css";
+import imgcard1 from './card-1.png';
+import imgcard2 from './card-2.png';
+import imgcard3 from './card-3.png';
+import imgcard4 from './card-4.png';
+import imgcard5 from './card-5.png';
+import imgcard6 from './card-6.png';
+import imgcard7 from './card-7.png';
+import imgcard8 from './card-8.png';
 
 class Recursos extends Component {
     render() {
@@ -14,7 +22,10 @@ class Recursos extends Component {
                             <div id="card_ln">
                                 { /* card */ }
                                 <div id="card" className="card-set">
-                                    { /* card-img */ }
+                                    { /* card-img */ } 
+                                    <div id="card-mark">
+                                        <img src = {imgcard1} id="card-mark-img"/>
+                                    </div>
                                     { /* card-title */ }
                                     <h5>Analise de produtos</h5>
                                     { /* card-content */ }
@@ -22,8 +33,10 @@ class Recursos extends Component {
                                 </div>
                                 { /* card */ }
                                 <div id="card" className="card-set">
-                                    { /* card-img */ }
-                                    
+                                    { /* card-img */ } 
+                                    <div id="card-mark">
+                                        <img src = {imgcard2} id="card-mark-img"/>
+                                    </div>
                                     { /* card-title */ }
                                     <h5>Rentabilidade real</h5>
                                     { /* card-content */ }
@@ -34,7 +47,10 @@ class Recursos extends Component {
                             <div id="card_ln">
                                 { /* card */ }
                                 <div id="card" className="card-set">
-                                    { /* card-img */ }
+                                    { /* card-img */ } 
+                                    <div id="card-mark">
+                                        <img src = {imgcard3} id="card-mark-img"/>
+                                    </div>
                                     
                                     { /* card-title */ }
                                     <h5>Sensibilidade 
@@ -44,7 +60,10 @@ class Recursos extends Component {
                                 </div>
                                 { /* card */ }
                                 <div id="card" className="card-set">
-                                    { /* card-img */ }
+                                    { /* card-img */ } 
+                                    <div id="card-mark">
+                                        <img src = {imgcard4} id="card-mark-img"/>
+                                    </div>
                                     
                                     { /* card-title */ }
                                     <h5>Cobertura do FGC</h5>
@@ -56,7 +75,10 @@ class Recursos extends Component {
                             <div id="card_ln">
                                 { /* card */ }
                                 <div id="card" className="card-set">
-                                    { /* card-img */ }
+                                    { /* card-img */ } 
+                                    <div id="card-mark">
+                                        <img src = {imgcard5} id="card-mark-img"/>
+                                    </div>
                                     
                                     { /* card-title */ }
                                     <h5>Projeção de carteira</h5>
@@ -65,7 +87,10 @@ class Recursos extends Component {
                                 </div>
                                 { /* card */ }
                                 <div id="card" className="card-set">
-                                    { /* card-img */ }
+                                    { /* card-img */ } 
+                                    <div id="card-mark">
+                                        <img src = {imgcard6} id="card-mark-img"/>
+                                    </div>
                                     
                                     { /* card-title */ }
                                     <h5>Risco x Retorno</h5>
@@ -76,7 +101,10 @@ class Recursos extends Component {
                             <div id="card_ln">
                                 { /* card */ }
                                 <div id="card" className="card-set">
-                                    { /* card-img */ }
+                                    { /* card-img */ } 
+                                    <div id="card-mark">
+                                     <img src = {imgcard7} id="card-mark-img"/>
+                                    </div>
                                     
                                     { /* card-title */ }
                                     <h5>Multiplas carteiras</h5>
@@ -85,7 +113,10 @@ class Recursos extends Component {
                                 </div>
                                 { /* card */ }
                                 <div id="card" className="card-set">
-                                    { /* card-img */ }
+                                    { /* card-img */ } 
+                                    <div id="card-mark">
+                                        <img src = {imgcard8} id="card-mark-img"/>
+                                    </div>
                                     
                                     { /* card-title */ }
                                     <h5>Acesso ao kinvoweb</h5>

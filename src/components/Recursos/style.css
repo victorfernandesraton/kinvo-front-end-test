@@ -2,7 +2,8 @@ section#recursos {
     background-color: #5D41AC;
     width: 100vw;
     height: 100vh;
-    color: white;
+    color: #FFFFFF;
+    overflow: hidden;
 }
 section#recursos .col-1 {
     float: left;
@@ -26,6 +27,7 @@ section#recursos .card-set {
     background-color: aliceblue;
     float: left;
     width: 25vw;
+    height: 18vh;
 }
 
 section#recursos .col-1 p {
@@ -42,5 +44,35 @@ section#recursos .col-1 h3 span#mark {
 }
 
 section#recursos #card h5 {
-    font-size: 1.25em;
+    margin: 2vh;
+    width: 12vw;
+    font-size: 1em;
 }
+
+section#recursos #card p {
+    margin-top: 2vh;
+    margin-bottom: 0.5vh;
+    width: 12vw;
+    font-size: 0.8em;
+}
+
+section#recursos #card-mark {
+    margin-right: 2vw;
+    float: left;
+    min-width: 8vw;
+    height: 18vh;
+    background-color: #F7F8F8;
+    border-right: 0.01rem solid #5D41AC;
+}
+
+section#recursos #card-mark img#card-mark-img {
+    display: flex;
+    margin: auto;
+    margin-top: 4vh;
+    max-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
