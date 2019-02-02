@@ -1,7 +1,7 @@
 section#quem_faz {
 	background-color: #DAE0E3;
     width: auto;
-    height: 100vh;
+    height: auto;
 }
 
 section#quem_faz h2#title {
@@ -13,19 +13,20 @@ section#quem_faz h2#title {
 
 section#quem_faz #row {
 	display: flex;
-	margin-left: auto;
-	margin-right: auto;
 	justify-content: center;
-	margin: 5vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-top: 0;
+	margin-bottom: 5vh;
 	width: auto;
 }
 section#quem_faz #row #block {
 	color: #646A7C;
 	justify-content: center;
-	margin-left: 0.5vw;
-	margin-right: 0.5vw;
+	margin-left: 0;
+	margin-right: 0;
 	float: left;
-	max-width: 16vw;
+	max-width: 20vw;
 	padding: 1vw;
 }
 section#quem_faz #row #block #img {
@@ -50,6 +51,7 @@ section#quem_faz #row #block h4 {
 }
 
 section#quem_faz #row #block p {
+	font-family: 'Medium';
 	display: flex;
 	justify-content: center;
 	text-align: center;
