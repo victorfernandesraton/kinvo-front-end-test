@@ -1,50 +1,56 @@
 section#quem_faz {
+	background-color: #DAE0E3;
     width: auto;
     height: 100vh;
-    color: red;
 }
 
-.slider {
-	width: 100vw;
-	margin: auto;
-	overflow: hidden;
+section#quem_faz h2#title {
+	margin-left: 10vh;
+	margin-top: 10vh;
+	font-size: 2em;
+	color: #9E51BA;
 }
 
-.slider ul {
+section#quem_faz #row {
 	display: flex;
-	padding: 0;
-    width: 400vw; /* o whidth tem que ser
-    igual a soma do width dos conteudos (neste caso do slider_leaf*/
-    
-    /* essa função carrega a operação do keyframe pelas linhas */
-	animation: transition_slide 20s infinite alternate linear;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	margin: 5vw;
+	width: auto;
+}
+section#quem_faz #row #block {
+	color: #646A7C;
+	justify-content: center;
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+	float: left;
+	max-width: 16vw;
+	padding: 1vw;
+}
+section#quem_faz #row #block #img {
+	display: flex;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
 }
 
-.slider li {
-	width: 100vw;
-	list-style: none;
+section#quem_faz #row #block h3 {
+	margin-top: 2vh;
+	display: flex;
+	justify-content: center;
+
 }
 
-.slider h1 {
-    color: aqua;
-    background-color: black;
-}
-@keyframes transition_slide {
-    /* de 0 0 20 do tempo decorrido */
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-	/* de 25 a 45 do tempo decorrido */
-	25% {margin-left: -100vw;}
-	45% {margin-left: -100vw;}
-	/* de 50 a 75 do tempo decorrido */
-	50% {margin-left: -200vw;}
-	70% {margin-left: -200vw;}
-	/* de 75 a 100 do tempo decorrido */
-	75% {margin-left: -300vw;}
-	100% {margin-left: -300vw;}
+section#quem_faz #row #block h4 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2vh;
 }
 
-.slide_leaf {
-    background-color: aqua;
-    width: auto;
-}
+section#quem_faz #row #block p {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+} 
