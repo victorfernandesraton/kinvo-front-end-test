@@ -12,7 +12,7 @@ class Banner extends Component {
                 <div id="container">
                     <img id= "mainimg"className = "main-background" alt="main" src = {mainbg}/>
                     <h1><span>O controle </span>dos<br/> seus <span>investimentos </span>na palma da mão.</h1>
-                    <a href="https://www.google.com">
+                    <a href="">
                         <img className = "app-img img1" alt="android-img" src = {androidimg}/>
                     </a>
                     <a>

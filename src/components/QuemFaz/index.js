@@ -1,51 +1,30 @@
 import React, {Component} from 'react';
+import "./slider.css";
 import "./style.css";
 
 class QuemFaz extends Component {
     render() {
         return (
                 { /* quen faz */ },
-    <section id="quem_faz">
-    <h2>Quem faz o kinvo</h2>
-    <div id="card_deck_horizontal">
-        { /* coluna de card 1x1 */ },
-        <div id="card_col">
-            { /* card */ },
-            <div id="card">
-                { /* card-plain */ },
-                <h5></h5>
-                { /* card-content */ },
-                <p></p>
-                { /* card-mark */ },
-                <h6></h6>
+            <section id="quem_faz">
+                <h2>Quem faz o kinvo</h2>
+                <div className="slider">
+                <ul>
+                    <li>
+                        <div className="slide_leaf"><span>Slide 1</span></div>
+                    </li>
+                    <li>
+                        <div className="slide_leaf"><span>Slide 2</span></div>
+                    </li>
+                    <li>
+                        <div className="slide_leaf"><span>Slide 3</span></div>
+                    </li>
+                    <li>
+                        <div className="slide_leaf"><span>Slide 4</span></div>
+                    </li>
+                </ul>
             </div>
-        </div>
-        { /* coluna de card 2x1 */ },
-        <div id="card_col">
-            { /* card */ },
-            <div id="card">
-                { /* card-plain */ },
-                <h5></h5>
-                { /* card-content */ },
-                <p></p>
-                { /* card-mark */ },
-                <h6></h6>
-            </div>
-        </div>
-        { /* coluna de card 3x1 */ },
-        <div id="card_col">
-            { /* card */ },
-            <div id="card">
-                { /* card-plain */ },
-                <h5></h5>
-                { /* card-content */ },
-                <p></p>
-                { /* card-mark */ },
-                <h6></h6>
-            </div>
-        </div>
-    </div>
-    </section>
+            </section>
         );
     }
 }

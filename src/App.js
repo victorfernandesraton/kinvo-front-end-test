@@ -9,6 +9,7 @@ import Recursos from "./components/Recursos/index.js";
 import Kinvoweb from "./components/Kinvoweb/index.js";
 import Planos from "./components/Planos/index.js";
 import QuemFaz from "./components/QuemFaz/index.js";
+import Footer from "./components/Footer/index.js";
 import "./index.js";
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
       < Kinvoweb/>
       < Planos/>
       < QuemFaz/>
+      < Footer/>
       </div>
     );
   }

@@ -1,0 +1,50 @@
+section#quem_faz {
+    width: auto;
+    height: 100vh;
+    color: red;
+}
+
+.slider {
+	width: 100vw;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+    width: 400vw; /* o whidth tem que ser
+    igual a soma do width dos conteudos (neste caso do slider_leaf*/
+    
+    /* essa função carrega a operação do keyframe pelas linhas */
+	animation: transition_slide 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100vw;
+	list-style: none;
+}
+
+.slider h1 {
+    color: aqua;
+    background-color: black;
+}
+@keyframes transition_slide {
+    /* de 0 0 20 do tempo decorrido */
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	/* de 25 a 45 do tempo decorrido */
+	25% {margin-left: -100vw;}
+	45% {margin-left: -100vw;}
+	/* de 50 a 75 do tempo decorrido */
+	50% {margin-left: -200vw;}
+	70% {margin-left: -200vw;}
+	/* de 75 a 100 do tempo decorrido */
+	75% {margin-left: -300vw;}
+	100% {margin-left: -300vw;}
+}
+
+.slide_leaf {
+    background-color: aqua;
+    width: auto;
+}
