@@ -11,6 +11,7 @@ class Banner extends Component {
             <section id = "banner">
                 <div id="container">
                     <img id= "mainimg"className = "main-background" alt="main" src = {mainbg}/>
+                    </div>
                     <h1><span>O controle </span>dos<br/> seus<span> investimentos </span>na palma da mão.</h1>
                     <a href="">
                         <img className = "app-img img1" alt="android-img" src = {androidimg}/>
@@ -19,7 +20,6 @@ class Banner extends Component {
                         <img className = "app-img" alt="ios-img" src = {iosimg}/>
                     </a>
                     
-                    </div>
                     <a href="#sobre"><img className="seta-baixo" src = {arrow}></img></a>
             </section>
         );

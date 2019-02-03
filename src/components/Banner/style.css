@@ -39,7 +39,7 @@ a {
 }
 
 #container {
-    /* mask top */
+    z-index: 0;
     mask-image: linear-gradient(to top, transparent 0%, #3D3535 40%);
     -webkit-mask-image: linear-gradient(to top, transparent 0%, #3D3535 40%);
     background-color: #3D3535;

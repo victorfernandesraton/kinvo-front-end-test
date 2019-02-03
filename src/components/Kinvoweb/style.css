@@ -39,20 +39,6 @@ section#kinvoweb #img-kinvoweb {
     height: 80vh;
 }
 
-section#kinvoweb#card {
-    float: left;
-}
-
-section#kinvoweb .card-set {
-    margin: 0.5vh 0.25vw;
-    border-radius: 5px;
-    color: black;
-    background-color: aliceblue;
-    float: left;
-    width: 25vw;
-    height: 18vh;
-}
-
 section#kinvoweb .col-1 p {
     margin-top: 5vh;
 }
@@ -62,42 +48,6 @@ section#kinvoweb .col-1 h3 {
     font-size: 2em;
 }
 
-section#kinvoweb .col-1 h3 span#mark {
-    color: #E679C0;
-}
-
-section#kinvoweb #card h5 {
-    margin: 2vh;
-    width: 12vw;
-    font-size: 1em;
-}
-
-section#kinvoweb #card p {
-    margin-top: 2vh;
-    margin-bottom: 0.5vh;
-    width: 12vw;
-    font-size: 0.8em;
-}
-
-section#kinvoweb #card-mark {
-    margin-right: 2vw;
-    float: left;
-    min-width: 8vw;
-    height: 18vh;
-    background-color: #F7F8F8;
-    border-right: 0.01rem solid #5D41AC;
-}
-
-section#kinvoweb #card-mark img#card-mark-img {
-    display: flex;
-    margin: auto;
-    margin-top: 4vh;
-    max-height: 20vh;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-
-}
 
 
 
