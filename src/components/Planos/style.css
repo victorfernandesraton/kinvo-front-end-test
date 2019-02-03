@@ -7,6 +7,7 @@ section#planos {
 }
 
 section#planos #col {
+    overflow: hidden;
     float: left;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -64,6 +65,7 @@ section#planos #card-title h5 {
 }
 
 section#planos #card-content {
+    line-height: 1.5em;
     background-color: #FFFFFF;
     float: left;
     width: 20vw;
@@ -75,19 +77,28 @@ section#planos #card-content ul {
     margin: 3vh 2vw;
 }
 
+section#planos #card-content {
+    list-style-type: disc !important;
+}
+
 section#planos #card-mark {
     color: #FFFFFF;
     height: 20vh;
-    width: 15vw;
+    width: 12vw;
     display: flex;
     margin: auto;
     justify-content: center;
     float: left;
+    border-top-right-radius:  10px;
+    border-bottom-right-radius: 10px;
 }
 
 section#planos #card-mark h5 {
-    font-size: 1em;
-    margin: 7vh;
+    display: flex;
+    margin: auto 3vw;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 1.25em;
     text-align: center;
 }
 

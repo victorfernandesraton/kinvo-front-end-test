@@ -15,10 +15,18 @@ section#kinvoweb #col {
 }
 
 section#kinvoweb .col-1 {
+    width: 25vw;
     position: absolute;
     margin: 0;
     margin-left: 5vw;
     float: left;
+}
+
+section#kinvoweb .col-1 h1, 
+section#kinvoweb .col-1 h2,
+section#kinvoweb .col-1 h3, 
+section#kinvoweb .col-1 p {
+    color: #FFFFFF;
 }
 
 section#kinvoweb #col .col-img-right {

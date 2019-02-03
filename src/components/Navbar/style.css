@@ -15,11 +15,11 @@ nav ul {
 }
 
 nav #navlink {
+    margin: 0;
     margin-top: 1.5vh;
     display: inline-block;
     background-color: transparent;
-    padding: 2vh;
-    opacity: 0.8;
+    padding: 2vh 0.3vw;
     border-radius: 10px;
     border: solid 1px transparent;
 }
@@ -28,9 +28,8 @@ nav #navlink-sigin {
     margin-top: 1vh;
     display: inline-block;
     background-color: transparent;
-    padding: 2vh;
-    opacity: 0.8;
     border-radius: 10px;
+    padding: 2vh 0.3vw;
     border: solid 1px transparent;
 }
 
@@ -38,8 +37,7 @@ nav #navlink-login {
     margin-top: 1vh;
     display: inline-block;
     background-color: transparent;
-    padding: 2vh;
-    opacity: 0.8;
+    padding: 2vh 0.3vw;
     border-radius: 10px;
     border: solid 1px transparent;
 }
@@ -48,7 +46,6 @@ nav #navlink a {
     margin-top: 1vh;
     padding: 1vh 1.5vw;
     border-radius: 360px;
-    opacity: 0.8;
     border: solid 1px transparent;
     background-color: transparent;
     font-family: 'SemiBold';
@@ -60,7 +57,6 @@ nav #navlink-sigin a {
     margin-top: 1vh;
     padding: 1vh 1.5vw;
     border-radius: 360px;
-    opacity: 0.8;
     border: solid 1px transparent;
     background-color: #0DD1E3;
     font-family: 'SemiBold';
@@ -74,7 +70,6 @@ nav #navlink-login a {
     margin-top: 1vh;
     padding: 1vh 1.5vw;
     border-radius: 360px;
-    opacity: 0.8;
     border: solid 1px transparent;
     background-color: white;
     font-family: 'SemiBold';

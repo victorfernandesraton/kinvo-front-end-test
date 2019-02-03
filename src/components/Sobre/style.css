@@ -1,9 +1,18 @@
 section#sobre {
     background-color: #E3E4E6;
 }
-h2 {
+section#sobre p {
+    font-family: 'Medium';
+    color: #707B81;
+}
+section#sobre h2 {
     font-size: 1em;
     font-family: 'Medium';
+    color: #707B81;
+}
+
+section#sobre h3{
+    color: #707B81; 
 }
 
 #row {
@@ -18,7 +27,7 @@ h2 {
 
 .col-1 {
     float: left;
-    width: 25vw;
+    width: 30vw;
 }
 
 .col-2 {

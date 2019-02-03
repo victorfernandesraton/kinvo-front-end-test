@@ -1,22 +1,25 @@
 #banner{
     display: block;
-    background-color: black;
+    background-color: #3D3535;
     max-width: 100vw;
     max-height: 100vh;
     overflow: hidden;
 }
 
 #mainimg {
+    position: relative;
     height: 100vh !important;
     width: 100vw;
-    background-color: black;
+    background-color: #3D3535;
 }
 
 h1 {
+    overflow: hidden;
+    line-height: 1em;
     font-size: 2.2em;
     position: absolute;
     margin-top: -60vh;
-    margin-left: 6vw;
+    margin-left: 5vw;
     margin-right: 68vw;
 }
 
@@ -37,9 +40,9 @@ a {
 
 #container {
     /* mask top */
-    mask-image: linear-gradient(to top, transparent 100%, black 50%);
-    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 15%);
-    background-color: black;
+    mask-image: linear-gradient(to top, transparent 0%, #3D3535 40%);
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, #3D3535 40%);
+    background-color: #3D3535;
     
 }
 

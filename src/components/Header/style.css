@@ -7,7 +7,7 @@
     font-family: SemiBold;
 
 }@font-face {
-    src: url("./Medium.ttf");
+    src: url("./SFCompact.otf");
     font-family: Medium;
 }
 
@@ -26,3 +26,16 @@ img {
     margin: 0;
     padding: 0;
     }
+
+p {
+    font-size: 0.9em;
+    line-height: 2em;
+    color: #707B81;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: #707B81;
+    font-family: 'Bold';
+}
+

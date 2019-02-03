@@ -8,7 +8,11 @@ section#recursos {
 section#recursos .col-1 {
     float: left;
 }
-
+section#recursos .col-1 p, 
+section#recursos .col-1 h2, 
+section#recursos .col-1 h3 {
+    color: #FFFFFF;
+}
 section#recursos .col-2 {
     margin-right: 1vw;
     margin-left: 5vw;
@@ -47,13 +51,16 @@ section#recursos #card h5 {
     margin: 2vh;
     width: 12vw;
     font-size: 1em;
+    color: #707B81;
 }
 
 section#recursos #card p {
-    margin-top: 2vh;
+    line-height: normal;
+    margin-top: 1.5vh;
     margin-bottom: 0.5vh;
-    width: 12vw;
+    width: 13vw;
     font-size: 0.8em;
+    color: #707B81;
 }
 
 section#recursos #card-mark {
