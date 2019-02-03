@@ -26,6 +26,23 @@ class Navbar extends Component {
       componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)
       }
+      authenticate(){
+        return new Promise(resolve => setTimeout(resolve, 2000))
+      }
+    
+      componentDidMount(){
+        this.authenticate().then(() => {
+          const ele = document.getElementById('ipl-progress-indicator')
+          if(ele){
+            // fade out
+            ele.classList.add('available')
+            setTimeout(() => {
+              // remove from DOM
+              ele.outerHTML = ''
+            }, 2000)
+          }
+        })
+      }
         
     render() {
         return (
@@ -36,9 +53,9 @@ class Navbar extends Component {
                 <ul>
                     <li id="navlink"><a href="#banner">Sobre o kinvo</a></li>
                     <li id="navlink"><a href="#recursos">Recuros avançados</a></li>
-                    <li id="navlink"><a href="#kinvoweb">Kinvo Web</a></li>
-                    <li id="navlink"><a href="#planos">Kinvo Web</a></li>
-                    <li id="navlink"><a href="#quem_faz">Quem faz</a></li>
+                    <li id="navlink"><a href="#kinvoweb">Kinvoweb</a></li>
+                    <li id="navlink"><a href="#planos">Planos</a></li>
+                    <li id="navlink"><a href="#quem_faz">Quem faz o Kinvo</a></li>
                     <li id="navlink-sigin"><a href="modal_sigin" style={{borderColor: this.state.bordercolor_sigin}}>Cadastre-se</a></li>
                     <li id="navlink-login"><a className="log" href="modal_login">Entrar</a></li>
                 </ul>
@@ -46,6 +63,5 @@ class Navbar extends Component {
         );
     }
 }
-
 
 export default Navbar;
