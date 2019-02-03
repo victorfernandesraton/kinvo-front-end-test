@@ -22,7 +22,9 @@ section#sobre h3{
 }
 
 #col {
-    margin: 0 5vw;
+    margin: 0;
+    margin-left: 10vw;
+
 }
 
 .col-1 {
@@ -33,6 +35,10 @@ section#sobre h3{
 .col-2 {
     margin-top: -5vh;
     float: left;
+    width: 40vw;
+}
+
+.col-2 #video {
     width: 50vw;
 }
 

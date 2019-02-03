@@ -5,7 +5,7 @@ section#quem_faz {
 }
 
 section#quem_faz h2#title {
-	margin-left: 10vh;
+	margin-left: 20vh;
 	margin-top: 10vh;
 	font-size: 2em;
 	color: #9E51BA;
@@ -14,8 +14,8 @@ section#quem_faz h2#title {
 section#quem_faz #row {
 	display: flex;
 	justify-content: center;
-	margin-left: 2vw;
-	margin-right: 2vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
 	margin-top: 0;
 	margin-bottom: 5vh;
 	width: auto;
@@ -55,4 +55,5 @@ section#quem_faz #row #block p {
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	font-size: 0.8em;
 } 

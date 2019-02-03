@@ -9,8 +9,6 @@ section#planos {
 section#planos #col {
     overflow: hidden;
     float: left;
-    margin-left: 5vw;
-    margin-right: 5vw;
 }
 
 
@@ -18,19 +16,20 @@ section#planos #col-card-init {
     border-radius: 10px;
     margin-top: 10vh;
     float: left;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 section#planos #col-card {
     border-radius: 10px;
     margin-top: 2vh;
     float: left;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 section#planos .text {
+    margin-left: 10vw;
     margin-top: 10vh;
     height: 70vh;
     width: 25vw;
@@ -44,11 +43,13 @@ section#planos .card-deck {
 }
 
 section#planos #card-set {
+    
     height: 20vh;
     width: auto;
 }
 
 section#planos #card-title {
+    
     display: flex;
     float: left;
     height: 20vh;
