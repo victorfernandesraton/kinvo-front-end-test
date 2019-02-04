@@ -15,7 +15,7 @@ class Navbar extends Component {
     }
       
       listenScrollEvent = e => {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 400) {
             this.setState({bgcolor_nav: '#0DD1E3'})
             this.setState({bordercolor_sigin: '#ffffff'})
         } else {
@@ -25,23 +25,6 @@ class Navbar extends Component {
       }
       componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)
-      }
-      authenticate(){
-        return new Promise(resolve => setTimeout(resolve, 2000))
-      }
-    
-      componentDidMount(){
-        this.authenticate().then(() => {
-          const ele = document.getElementById('ipl-progress-indicator')
-          if(ele){
-            // fade out
-            ele.classList.add('available')
-            setTimeout(() => {
-              // remove from DOM
-              ele.outerHTML = ''
-            }, 2000)
-          }
-        })
       }
         
     render() {
