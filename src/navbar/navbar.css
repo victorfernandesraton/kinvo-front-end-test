@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/* navbar */
+nav {
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    height: 10vh;
+}
+nav ul {
+    float: right;
+    margin-right: 5vw;
+}
+
+nav #navlink {
+    margin-top: 2.5vh;
+    display: inline-block;
+    background-color: transparent;
+    padding: 1vh 1vw;
+}
+nav #navlink a {
+    color: azure;
+    text-decoration: none;
+} 
+
+nav #navlink:hover {
+    background-color: aqua;
+    border-radius: 5%;
+    border: solid 2px white;
+}
+
+nav #nav-brand {
+    float: left;
+    display: inline-flex;
+    margin: 2vh 2vw;
+}
+
+
+

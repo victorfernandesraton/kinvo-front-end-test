@@ -1,0 +1,43 @@
+@font-face {
+    src: url("./Bold.ttf");
+    font-family: Bold;
+}
+@font-face {
+    src: url("./SemiBold.ttf");
+    font-family: SemiBold;
+
+}@font-face {
+    src: url("./SFCompact.otf");
+    font-family: Medium;
+}
+
+
+* {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Medium';
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    }
+
+p {
+    font-size: 0.9em;
+    line-height: 2em;
+    color: #707B81;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: #707B81;
+    font-family: 'Bold';
+}
+
+

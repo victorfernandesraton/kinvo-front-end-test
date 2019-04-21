@@ -1,0 +1,37 @@
+footer {
+    font-family: 'Medium';
+    background-color: #4E5B61;
+}
+
+footer div#content {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+footer div#content span {
+    display: flex;
+    margin-top: 1vh;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+footer div#content span#dowloadapp {
+    float: left;
+}
+
+footer div#content span#copyright {
+    float: right;
+}
+
+footer div#content img {
+    margin: 0;
+    margin-left: 0.5vw;
+    margin-right: 0vw;
+}
+
+footer div#content img#logo {
+    margin-left: 2vw;
+    height: 4vh;
+    float: right;
+}

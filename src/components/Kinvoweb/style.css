@@ -1,0 +1,61 @@
+section#kinvoweb {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF8052;
+    color: #FFFFFF;
+}
+
+section#kinvoweb span {
+    color: #9E51BA;
+}
+
+section#kinvoweb #col {
+    margin-top: 12vh;
+}
+section#kinvoweb #col-right {
+    padding: 0;
+    color: #9E51BA;
+}
+section#kinvoweb .col-1 {
+    width: 25vw;
+    position: relative;
+    margin-left: 10vw;
+    float: left;
+}
+
+section#kinvoweb .col-1 h1, 
+section#kinvoweb .col-1 h2,
+section#kinvoweb .col-1 h3, 
+section#kinvoweb .col-1 p {
+    color: #FFFFFF;
+}
+
+section#kinvoweb .col-img-right {
+    width: 100vh;
+    background-color: red;
+}
+
+section#kinvoweb .col-1 p {
+    margin-top: 5vh;
+}
+
+section#kinvoweb .col-1 h3 {
+    margin-top: 2.5vh;
+    font-size: 2em;
+}
+
+section#kinvoweb iframe {
+    margin-left: 18vw;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+
+section#kinvoweb .content-video {
+    margin-left: 20vw;
+    background-image: url("./kinvoweb-bg.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 20vh;
+    width: 100vw;
+    height: 100vh;
+}
